@@ -116,7 +116,7 @@ variable "private1_instance_key_name" {
 
 variable "private1_instance_tags_name" {
   type = string
-  default = "kibana1"
+  default = "kibana11"
 }
 
 #  private1 network interface 
@@ -165,7 +165,7 @@ variable "private2_instance_key_name" {
 
 variable "private2_instance_tags_name" {
   type = string
-  default = "kibana2"
+  default = "kibana22"
 }
 
 #  private2 network interface 
