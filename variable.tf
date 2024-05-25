@@ -101,7 +101,7 @@ variable "private1_instance_ami_id" {
 
 variable "private1_instance_instance_type" {
   type = string
-  default = "t3.micro"
+  default = "t3.medium"
 }
 
 variable "private1_instance_device_index" {
@@ -150,7 +150,7 @@ variable "private2_instance_ami_id" {
 
 variable "private2_instance_instance_type" {
   type = string
-  default = "t3.micro"
+  default = "t3.medium"
 }
 
 variable "private2_instance_device_index" {
